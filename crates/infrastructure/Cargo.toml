@@ -1,0 +1,11 @@
+[package]
+name = "infrastructure"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+# .env
+dotenvy.workspace = true
+once_cell.workspace = true
+# cloudflare r2
+cf-r2-sdk.workspace = true
